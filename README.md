@@ -1,11 +1,14 @@
 # **Introduction**
+Airbnb functions as a marketplace linking property owners (hosts) with renters (guests). In recent years, Airbnb has transformed the hospitality industry globally, offering tourists and travelers a wide range of accommodations beyond traditional hotels. 
+Every city has distinct criteria for popular Airbnb listings. Bangkok, a popular tourist destination with numerous Airbnb options. In this project we aim to understand the criteria of popular listings in Bangkok, Thailand.
 
 # **Problem Statement**
-What listing criteria do guests often choose when staying in Bangkok based on the number of reviews available? Considering the limited data we have, choosing the number of reviews is still appropriate to be able to find out what kind of listing criteria are often chosen by guests. Even though we don't know whether the guest likes it or not, we can ensure that the guest chooses the listing.
+What listing criteria do guests often choose when staying in Bangkok based on the number of reviews available? Considering the limited data we have, choosing the number of reviews is still appropriate to be able to find out what kind of listing criteria are often chosen by guests. Even though we don't know whether the guest likes it or not, we can ensure that the guest chooses the listing. 
+
+The aim of this project is to explain the criteria of popular listings in Bangkok. These findings will enhance our understanding of the Airbnb market in Bangkok and provide valuable guidance for hosts and guests alike.
 
 # **The Data**
 - The data contains detailed information regarding Airbnb listings in Bangkok in 2022.
-- The data was obtained from the Kaggle site.
 - There are 15,854 total entries.
 - There are 16 attributes, and the following are the names and explanations of each attribute:
   - `name`
@@ -39,7 +42,7 @@ To provide results that are easier to understand, we will create three new colum
   - Midrange: `price` <= 2429 baht
   - Luxurious: `price` > 2429 baht
 
-# **The Analysis**
+# **The Analysis Summary**
 To answer the main question, "What listing criteria do guests frequently choose when staying in Bangkok based on the number of reviews available?" we will divide it into several questions:
 - Which area has the most total reviews?
 - What type of room has the most total reviews?
@@ -50,8 +53,20 @@ By answering these questions, we can determine the key listing criteria that gue
 ![image](https://github.com/user-attachments/assets/829b220b-6282-4ea1-858e-e48214208b16)
 - The CBD is the most popular area for guests, accounting for 75% of the total number of reviews.
 - The CBD is the central financial and commercial area in Bangkok, showcasing luxurious metropolitan life.
-- This indicates that guests prefer to stay in metropolitan areas.
+- This indicates that guests prefer to stay in metropolitan areas, to start their Bangkok holiday.
 
+## **Most Popular Room Type**
+![image](https://github.com/user-attachments/assets/50e43563-c3f2-43a8-9d96-ac990b745413)
+- The entire home/apt type of accommodation is the most popular with guests, accounting for 75% of reviews.
+- This indicates that guests prefer to stay in a place that offer a home-like sensation, providing privacy and comfort.
+
+![image](https://github.com/user-attachments/assets/1ca87b3a-d095-462b-a3c6-e4d902d12fe7)
+- This indicates that guests prefer to stay in a place that offer a short duration of stay.
+
+## **Most Popular Price Range**
+![image](https://github.com/user-attachments/assets/cda53498-5b6c-4c27-863a-7c53ab6ffd8f)
+- The midrange price type is the most popular with guests, accounting for 54% of reviews.
+- This indicates that guests are willing to spend around 900–2,429 baht for comfortable room to stay.
 
 # **Recommendation**
 - The CBD area is the most in demand by guests. Hosts with listings outside the CBD can provide facilities that facilitate access to the CBD to attract more guests.
