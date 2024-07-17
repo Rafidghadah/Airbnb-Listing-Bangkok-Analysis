@@ -1,9 +1,7 @@
 # **Introduction**
 
 # **Problem Statement**
-What listing criteria do guests often choose when staying in Bangkok based on the number of reviews available?
-
-Considering the limited data we have, choosing the number of reviews is still appropriate to be able to find out what kind of listing criteria are often chosen by guests. Even though we don't know whether the guest likes the accommodation or not, we can ensure that the guest chooses the accommodation.
+What listing criteria do guests often choose when staying in Bangkok based on the number of reviews available? Considering the limited data we have, choosing the number of reviews is still appropriate to be able to find out what kind of listing criteria are often chosen by guests. Even though we don't know whether the guest likes the accommodation or not, we can ensure that the guest chooses the accommodation.
 
 # **The Data**
 - The data contains detailed information regarding Airbnb listings in Bangkok in 2022.
@@ -20,16 +18,29 @@ Considering the limited data we have, choosing the number of reviews is still ap
   - last_review: Date of most recent review
   - reviews_per_month
 
-
-
 ## **Data Cleaning**
+In the data cleaning process we will handle missing values, duplicates, and outliers.
 
 ## **Adding New Columns**
+To provide results that are easier to understand, we will create three new columns based on the existing columns:
+- Area: Categorizes the neighborhood column into 4 categories.
+  - CBD (Central Business District)
+  - North Bangkok
+  - West Bangkok
+  - East Bangkok
 
+- Stay Type: Categorizes minimum_nights into 3 categories.
+  - Short Term: minimum_nights <= 7
+  - Medium Term: `minimum_nights`<= 30
+  - Long Term: minimum_nights > 30
+
+- Price Type: Categorizes the price column into 3 categories based on the quartile value of the price column.
+  - Economical: price <= 900 baht
+  - Midrange: price <= 2429 baht
+  - Luxurious: price > 2429 baht
 
 # **The Analysis**
 
-# **Conclusion**
 
 # **Recommendation**
 
