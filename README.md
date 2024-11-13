@@ -1,3 +1,6 @@
+# **Airbnb Listing Bangkok Analysis **
+Created By : Rafidghadah Damarta
+
 # **Introduction**
 Airbnb functions as a marketplace linking property owners (hosts) with renters (guests). In recent years, Airbnb has transformed the hospitality industry globally, offering tourists and travelers a wide range of accommodations beyond traditional hotels. 
 Every city has distinct criteria for popular Airbnb listings. Bangkok, a popular tourist destination with numerous Airbnb options. In this project we aim to understand the criteria of popular listings in Bangkok, Thailand.
